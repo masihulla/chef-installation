@@ -5,6 +5,7 @@ wget https://packages.chef.io/files/stable/chefdk/4.3.13/el/8/chefdk-4.3.13-1.el
 rpm -Uvh chefdk-4.3.13-1.el7.x86_64.rpm
 cd /tmp
 git clone https://github.com/masihulla/chef-starter-kit.git
+cd chef-starter-kit
 unzip chef-starter.zip
 mv chef-repo/ /opt
 cd /opt/chef-repo
